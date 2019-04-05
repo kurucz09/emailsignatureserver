@@ -1,9 +1,4 @@
-ame: $(BuildDefinitionName).$(DayOfYear)$(Rev:.r)
-resources:
-  repositories:
-    - repository: Templates
-      type: git
-      name: Templates
+name: $(BuildDefinitionName).$(DayOfYear)$(Rev:.r)
 pool:
   name: Terraform Agents
 trigger:
